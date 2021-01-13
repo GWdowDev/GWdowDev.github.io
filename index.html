@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="col col-lg-auto">
+                        <div class="logo"><a class="navbar-brand" href="">Автошкола Помор</a></div>
+                    </div>
+                    <div class="col">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="" class="nav-link active">Методика обучения</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Цена и выбор курса</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Отзывы</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Записаться</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Отзывы</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="col col-lg-auto d-flex justify-content-end">
+                        <button type="button" class="btn btn-outline-light">Записаться на обучение</button>
+                        <button type="button" class="btn btn-outline-light button__phone">8-866-866-86-86</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="learn">
+        <div class="container">
+            <h1>Уникальная методика обучения</h1>
+            <p>Данная методика обучения сформирована на опыте из множества школ у которых максимальный рейтинг сдачи экзаменов по отношению к сроку обучения.</p>
+            <p>Обучение происходит с максимальной заботой о клиенте, учитывается психология, а так же подбирается индивидуальная форма обучения, нацеленная на результат в кротчайщие возможные сроки.</p>
+            <p>В результате этих факторов, обучаясь у нас, Вы получаете актуальные и максимально полезные навыки, с индивидульным подходом, в кротчайщие сроки. Результатом чего будет свидетесльвовать успешная сдача экзаменов в ГИБДД.</p>
+        </div>
+    </section>
+
+    <section class="courses">
+        <div class="container">
+            <ul class="d-flex justify-content-center nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Безопасное вождение</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Контраварийное вождение</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Экстремальное вождение</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <p>Данный курс позволит Вам получить представление и опыт, позволяющий уверенно себя чуствовать при вождении автомобиля по городу и получить водительские права.</p>
+                    <div class="courses__img courses__item1"></div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <p>На курсе контраварийного вождения Вы получите опыт в опасных ситациях, которые влекут за собой ДТП, по причине неблагоприятных условий и ошибкам других участников дорожного движения.</p>
+                    <div class="courses__img courses__item2"></div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <p>Курс по эекстремальному вождению даст понимание и опыт в ситуациях выхода из нестрандартных дорожных ситуаций, грозящих столкновением, опрокидыванием или иной аварией.</p>
+                    <div class="courses__img courses__item3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <h1>Записаться в автошколу</h1>
+            <form>
+                <div>
+                    <label for="inputEmail" class="form-label">Ваше имя</label>
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Можете ввести только имя или полное ФИО</div>
+                </div>
+                <div>
+                    <label for="inputPhone" class="form-label">Ваш телефон</label>
+                    <input type="email" class="form-control" id="inputPhone" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Описание для инпута, если надо...</div>
+                </div>
+                <button type="submit" class="btn btn-light">Записаться</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h1>Отзывы клиентов</h1>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h1>Как с нами связаться</h1>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="d-flex justify-content-around">
+                <div>Автошкола Помор</div>
+                <div>Все права защищены...</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>

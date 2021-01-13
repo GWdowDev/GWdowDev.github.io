@@ -1,0 +1,67 @@
+.courses__item1 {
+    background: url(../img/drive1.jpg);
+    background-size: cover;
+}
+.courses__item2 {
+    background: url(../img/drive2.jpg);
+    background-size: cover;
+}
+.courses__item3 {
+    background: url(../img/drive3.jpg);
+    background-size: cover;
+}
+
+header {
+    background: #212529;
+}
+.learn {
+    background: #E1E2E1;
+    padding: 40px 0 40px;
+}
+.courses {
+    padding: 40px 0 40px;
+}
+.form {
+    padding: 40px 0 40px;
+    background: #212529;
+}
+.reviews {
+    padding: 40px 0 40px;
+    background: #E1E2E1;
+}
+.footer {
+    background: #212529;
+    color: #fff;
+}
+
+.button__phone {
+    margin-left: 24px;
+}
+
+.courses__img {
+    width: 400px;
+    height: 250px;
+}
+
+.courses .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #212529;
+}
+
+.courses .nav-link {
+    color: black;
+}
+
+.courses .nav-link:hover {
+    background-color: #E1E2E1;
+}
+
+.form label {
+    color: #fff;
+}
+.form .form-text {
+    color:rgba(255,255,255,.55);
+}
+
+.form h1 {
+    color: #fff;
+}
